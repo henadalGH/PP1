@@ -1,0 +1,40 @@
+.uno
+{
+    
+    border: solid;
+    border-color: black;
+    width: 300px;
+}
+
+.dos
+{
+    
+    border: solid;
+    border-color: black;
+    width: 300px;
+    
+}
+
+.tres
+{
+    
+    border: solid;
+    border-color: black;
+    width: 300px;
+    
+}
+
+.cuatro
+{
+    
+    border: solid ;
+    border-color: black;
+    width: 300px;
+    margin-left: 10px;
+}   
+
+.mas
+{
+    display:flex;
+    
+}

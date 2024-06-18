@@ -1,0 +1,14 @@
+.numeros-romanos {
+counter-reset: item;
+list-style: none;
+}
+
+.numeros-romanos li{
+counter-increment: item;
+margin-bottom: 0.em;
+}
+
+.numeros-romanos li::before{
+    content: counter(item, lower-roman) ". ";
+    margin-right: 0.5em;
+}
