@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Symfony{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1 class="title">Mi Carrito</h1>
+                <div class="button-group">
+                    <a href="{{ path('ver_orden') }}" class="btn btn-primary">Ver Orden</a>
+                    <a href="{{ path('salir') }}" class="btn btn-secondary">Salir</a>
+                </div>
+            </div>
+        </header>
+
+        {% block body %}{% endblock %}
+    </body>
+</html>
